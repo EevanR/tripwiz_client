@@ -45,7 +45,7 @@ const Landing = (props) => {
           <div id="land-card" key={trip.id} className="ui card">
             <div className="image-landing">
               <img className="landing-img"
-                src={`https://maps.googleapis.com/maps/api/place/photo?photoreference=${trip.data.image}&sensor=false&maxwidth=400&key=${process.env.REACT_APP_GOOGLE_APIKEY}`}
+                // src={`https://maps.googleapis.com/maps/api/place/photo?photoreference=${trip.data.image}&sensor=false&maxwidth=400&key=${process.env.REACT_APP_GOOGLE_APIKEY}`}
               />
             </div>
             <div className="content">
